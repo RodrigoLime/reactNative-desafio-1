@@ -18,6 +18,10 @@ export const styles = StyleSheet.create({
     backgroundColor: colors.gray500,
     color: colors.gray100,
   },
+  focusedInput: {
+    borderWidth: 1,
+    borderColor: colors.purpleDark
+  },
   addButton: {
     height: 60,
     width: 60,
@@ -72,7 +76,4 @@ export const styles = StyleSheet.create({
   noTaskRegular: {
     color: colors.gray300,
   },
-  yesTasks: {
-    
-  }
 })
